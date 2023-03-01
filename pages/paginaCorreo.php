@@ -27,8 +27,7 @@
     <?php //Esta sección se encargará de transformar la factura.xml en un pdf y lo guardará en la carpeta "factura"
     require '../vendor/autoload.php';
 
-    //$html = file_get_contents("http://localhost/InvestigacionAplicadaLis_VF202313_MM200149/pages/datos.php");
-    $html = '../pages/datos.php';
+    $html = file_get_contents("http://localhost/InvestigacionAplicadaLis_VF202313_MM200149/pages/datos.php");
 
     use Dompdf\Dompdf;
     $rutaGuardado = '../factura/';
