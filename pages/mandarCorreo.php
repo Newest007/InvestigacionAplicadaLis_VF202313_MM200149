@@ -40,7 +40,9 @@
         $nombre=$_POST['nombre'];
         $correo=$_POST['correo'];
         //$archivo = file_get_contents("http://localhost/FuncionalidadXML-PDF-Correo/factura/factura.pdf");
-        $archivo ='C:\wamp64\www\InvestigacionAplicadaLis_VF202313_MM200149\factura\factura.pdf';
+        //$archivo = file_get_contents("http://localhost/InvestigacionAplicadaLis_VF202313_MM200149/factura/factura.pdf");
+        //$archivo ='C:\wamp64\www\InvestigacionAplicadaLis_VF202313_MM200149\factura\factura.pdf';
+        $archivo = '../factura/factura.pdf';
 
         try {
         
